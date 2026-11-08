@@ -6,7 +6,7 @@
 
     ./csvstat --help
     
-    ./csvstat schema <file.csv>
+    ./csvstat schema example.csv
     
-    ./csvstat stats  <file.csv>
+    ./csvstat stats example.csv
     
