@@ -138,7 +138,7 @@ static void print_result(const Column *cols, int ncols, long long rows, int mode
             printf("%d \"%s\" INT\n", i, cols[i].name);
             continue;
         }
-        if (i > 0) printf("\n");
+        printf("\n");
         printf("column %d\nname \"%s\"\ntype INT\nnulls 0\n", i, cols[i].name);
         printf("min %lld\nmax %lld\nmean ", cols[i].min, cols[i].max);
         print_mean(&cols[i], rows);
